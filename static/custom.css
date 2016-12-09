@@ -1,0 +1,246 @@
+body {
+	font-size: 18px;
+	color: #ececec;/*#1a1918*/
+  background-color: #111;
+  font-family: 'Montserrat', helvetica, arial, sans-serif;
+}
+.container-fluid {
+  background: rgba(145,61,136,0.2);
+  overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Montserrat', helvetica, arial, sans-serif;
+}
+
+
+
+/* intropage styles*/
+
+.rounded-box,
+.rounded-story-box{
+	color:#1a1918;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin-top: 50px;
+	border-radius: 15px;
+	padding:15px 20px;
+	text-align:center;
+}
+
+.speechbubble:after {
+  content: "";
+  position: absolute;
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  bottom: -30px;
+  left: 50px;
+  border-width: 15px;
+  border-style: solid;
+  border-color: transparent rgba(255, 255, 255, 0.2) rgba(255, 255, 255, 0.2) transparent;
+}
+
+.accent {
+  color: #a2ded0;
+}
+.accent2 {
+  color: #d4f0e9;
+}
+
+.buzzfeed-red{
+	color:#e93f33;
+  font-weight: bold;
+}
+
+.speechbubble h1{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 3em;
+	
+}
+
+a, a:hover, a:active, a:visited {
+  color: #fb7665;
+}
+
+i.fa.fa-phone.animated {
+    color: #fb7665;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding-top: 11px;
+    border-radius: 25px;
+    border: 2px solid #fb7665;
+    font-size: 0.5em !important;
+    vertical-align: middle;
+    margin: 0px 10px;
+}
+
+#introtext {
+    padding: 35px 40px 60px 40px;
+    text-align: left;
+}
+
+.calltoaction{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.calltoaction h2{
+  margin-bottom: 20px
+}
+
+
+.caption {
+  opacity: .4;
+    font-size: 0.75em;
+}
+.caption a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px){
+	#intro h1{
+		font-size: 2em;
+	}
+
+}
+
+@media (max-width: 600px){
+	#intro h1{
+		font-size: 1.4em;
+	}
+
+}
+
+
+/*audio player*/
+
+
+.playa input[type="range"] {  
+  background-color: #ddd;
+  border: 1px solid #bbb;
+  border-radius: 0.5em;
+  opacity: 0.5;
+  height: 1em;
+  top: 2px;
+  position: relative;
+}
+
+.playa  .thumbnail  {
+    width:100%;
+}
+
+/* sliders and buttons need a uniform height */
+.playa .btn-group .btn {
+    display:inline-block;
+    float:none;
+    height: 2.5em;
+}
+
+/*  contains the attribution link */
+.playa .row:nth-child(4) { 
+  overflow: hidden;
+}
+
+
+
+/* Acknowledgements:
+To Glyphicons (http://glyphicons.com/) for the Halflings glyphs font */
+
+/* .spin is used to rotate glyphicon glyphicon-refresh */
+.spin {
+  -webkit-animation: spin 2s infinite linear;
+  -moz-animation: spin 2s infinite linear;
+  -o-animation: spin 2s infinite linear;
+  animation: spin 2s infinite linear;
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*user stories*/
+
+#stories{
+  margin-top: 50px
+}
+
+.timestamp{
+  font-size: 0.75em;
+  line-height: 1.2em;
+  color: #565656;
+}
+
+.well{
+  background-color: #fff;
+}
+
+.container-fluid.playa {
+    padding: 15px 0px 15px 0px;
+}
+
+.btn-group.center-block {
+    padding: 0px;
+}
+
+
+.btn-default {
+    color: #811717;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-color: #811717;
+}
+
+.btn-default:hover,
+.btn-default:focus{
+  background-color:#ccc;
+  border-color: #e93f33;
+}
+
+button.btn.btn-default.col-xs-3 {
+    font-family: 'Ubuntu', helvetica, sans serif;
+}
+
+
+/*intro text styling*/
+
+
+@media (max-width:845px){
+  .volume-up-container{
+    border-radius: 3px
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+
+  }
+  .playa .col-sm-12 {
+       width: auto; 
+  }
+}
