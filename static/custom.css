@@ -4,12 +4,6 @@ body {
   background-color: #111;
   font-family: 'Montserrat', helvetica, arial, sans-serif;
 }
-.container-fluid {
-  background: rgba(145,61,136,0.2);
-  overflow: hidden;
-    height: 100%;
-    z-index: 2;
-}
 
 h1, h2, h3, h4, h5{
   font-family: 'Montserrat', helvetica, arial, sans-serif;
@@ -34,15 +28,15 @@ h1, h2, h3, h4, h5{
 }
 
 .speechbubble:after {
-  content: "";
-  position: absolute;
-  -moz-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  bottom: -30px;
-  left: 50px;
-  border-width: 15px;
-  border-style: solid;
-  border-color: transparent rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) transparent;
+      content: "";
+    position: absolute;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    bottom: -29px;
+    left: 50px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) transparent;
 }
 
 .accent {
@@ -82,11 +76,12 @@ a, a:hover, a:active, a:visited {
 }
 
 #calltoaction {
-  text-align: center;
-  margin-bottom: 70px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+    text-align: center;
+    margin-bottom: 75px;
+    max-width: 600px;
+    margin-top: 125px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -101,17 +96,29 @@ a, a:hover, a:active, a:visited {
   text-decoration: underline;
 }
 
-@media (max-width: 600px){
-	#intro h1{
-		font-size: 2em;
-	}
 
-}
 
 @media (max-width: 600px){
 	#intro h1{
 		font-size: 1.4em;
 	}
+  #introtext h1{
+    font-size: 30px;
+  }
+  .speechbubble:after{
+    bottom: -30px;
+  }
+  #calltoaction {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1em;
+  }
+  #introtext p {
+    font-size: 0.8em;
+  }
 
 }
 
@@ -242,3 +249,4 @@ button.btn.btn-default.col-xs-3 {
        width: auto; 
   }
 }
+
