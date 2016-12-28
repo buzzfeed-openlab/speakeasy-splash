@@ -1,7 +1,7 @@
 body {
 	font-size: 18px;
 	color: #ececec;/*#1a1918*/
-  background-color: #111;
+  background-color: #261724;
   font-family: 'Montserrat', helvetica, arial, sans-serif;
 }
 
@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5{
 .rounded-box,
 .rounded-story-box{
 	color:#1a1918;
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: #807A80;
 	margin-top: 50px;
 	border-radius: 15px;
 	padding:10px 15px;
@@ -36,14 +36,14 @@ h1, h2, h3, h4, h5{
     left: 50px;
     border-width: 15px;
     border-style: solid;
-    border-color: transparent rgba(255, 255, 255, 0.3) rgba(255, 255, 255, 0.3) transparent;
+    border-color: transparent #807A80 #807A80 transparent;
 }
 
 .accent {
-  color: #a2ded0;
+  color: #A4CEB1;
 }
 .accent2 {
-  color: #d4f0e9;
+  color: #ececec;
 }
 
 
@@ -62,11 +62,11 @@ h1, h2, h3, h4, h5{
 }
 
 #phone-num {
-  font-size: 1.4em;
+  font-size: 2em;
 }
 
 a, a:hover, a:active, a:visited {
-  color: #fb7665;
+  color: #FB794F;
 }
 
 
@@ -79,10 +79,11 @@ a, a:hover, a:active, a:visited {
     text-align: center;
     margin-bottom: 75px;
     max-width: 600px;
-    margin-top: 125px;
+    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 
 
